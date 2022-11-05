@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 F0",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "FMW_TYPE_TC",
+                "USE_HAL_DRIVER",
+                "STM32F051x8"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "c:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m0", 
+                "-mthumb"
+            ],
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}
